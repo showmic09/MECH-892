@@ -1,0 +1,8 @@
+{Index exceeds the number of array elements. Index must not exceed 30.
+
+Error in pointsampled3 (line 52)
+                        featureID2d=section2d(voxelID,Vol(jj).Subset(kk).Size,Vol(jj).SliceID(ii),nn);
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 
