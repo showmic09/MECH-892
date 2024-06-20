@@ -6,3 +6,4 @@
 -mv: moves file
 -cp: copies file
 -nano: opens a script editor
+ABAGADBAOAGABA
