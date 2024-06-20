@@ -1,0 +1,12 @@
+# The  shell command
+git init
+git add 
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+ git status
+git add <file>
+git push
+git checkout main
+git merge branch-name
+git push
