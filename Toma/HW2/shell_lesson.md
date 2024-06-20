@@ -1,4 +1,4 @@
-Shell Commands
+# Shell Commands
 - cd: Change directory
 - cp: Copy files and folder
 - pwd: print working directory
