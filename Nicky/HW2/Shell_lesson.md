@@ -1,1 +1,3 @@
-cd- change directory 
+- cd:change directory
+- pwd:print the working directory
+- mkdir:make directory
