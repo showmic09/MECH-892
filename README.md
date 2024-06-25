@@ -12,7 +12,7 @@ GitHub repository for the MECH-892 course at UNL. This repository will be used t
   - git checkout –b `<branch name>`
   - git add `<file/folders name>`
   - git commit -m `<useful message to identify the changes>`
-  - git push origin <span style="color:red">main/master</span>
+  - git push origin <span style="color:red"><branch-name></span>
   - git checkout <span style="color:red">main/master</span>
   - git status
   - git pull
