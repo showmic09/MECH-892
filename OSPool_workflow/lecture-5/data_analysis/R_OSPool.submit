@@ -1,0 +1,27 @@
+# File Name: R.submit
++SingularityImage = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0"
+
+# Specify your executable and arguments
+executable = spill_calculation.r
+arguments = 
+
+# Tell HTCondor what to name log, standard error, and standard output("screen output") files
+log = log/spill$(Process).log
+output = output/spill$(Process).out
+error = error/spill$(Process).error
+
+#Specify the job duration
++JobDurationCategory = "Medium"
+
+# Specify that HTCondor should transfer files to and from the
+#  computer where each job runs. 
+transfer_input_files = 
+should_transfer_files = YES
+
+# Amount of resources available to your jobs
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+
+# Tell HTCondor to queue a job for each data file
+queue 

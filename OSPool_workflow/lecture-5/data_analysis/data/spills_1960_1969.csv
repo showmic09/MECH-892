@@ -1,0 +1,11 @@
+SpillNumber,ProgramFacilityName,Street1,Street2,Locality,County,ZIPCode,SWISCode,DECRegion,SpillDate,SpillYear,ReceivedDate,ContributingFactor,Waterbody,Source,CloseDate,MaterialName,MaterialFamily,Quantity,Units,Recovered
+375009,FORMER ATLANTIC GAS STATI,1657 EAST STATE RD,,OLEAN,Cattaraugus,,566,9,4/1/60,1960,4/2/03,Unknown,,Gasoline Station or other PBS Facility,6/10/03,gasoline,Petroleum,0,Gallons,0
+9712958,NEIP  NE IND PK  DOD  DEPOT RD,DEPOT RD  NE IND PK,NEIP  DEPOT RD,GUILDERLAND CENTER,Albany,,130,4,4/12/60,1960,2/13/98,Unknown,,Commercial/Industrial,7/20/99,unknown material,Other,0,Gallons,0
+2003135,RESIDENCE FORMER NURSERY,DARTMORE AND HIGH BRIDGE ST,,FAYETTEVILLE,Onondaga,,3426,7,7/21/60,1960,7/21/20,Deliberate,,Commercial Vehicle,7/22/20,waste oil/used oil,Petroleum,0,,0
+608108,MANHOLE # 59875,WORTMAN AVENUE & VERMONT ST,,BROOKLYN,Kings,,2401,2,10/11/62,1962,10/16/06,Unknown,,"Institutional, Educational, Gov., Other",12/21/06,unknown petroleum,Petroleum,1,Gallons,0
+9502675,LAKE CHAMPLAIN,FERRIS ROCK,,CHESTERFIELD,Essex,,1620,5,11/24/63,1963,6/1/95,Human Error,LAKE CHAMPLAIN,Vessel,10/26/98,diesel,Petroleum,10000,Gallons,0
+1506652,CHATHAM GARDENS APARTMENTS,15 KELLY ST,,ROCHESTER,Monroe,,2814,8,9/23/65,1965,9/23/15,Other,,Commercial/Industrial,9/25/15,unknown petroleum,Petroleum,0,,0
+9000499,STAUFFER CHEMICAL,HAMILTON RD,,SKANEATELES FALLS,Onondaga,,3400,7,6/1/65,1965,4/16/90,Deliberate,,Commercial/Industrial,4/16/90,unknown petroleum,Petroleum,0,,0
+9610490,OGDEN PROP/ PHILMONT FUEL,BOX 403,R.R.SIDING  UNKNOWN,PHILMONT,Columbia,,1128,4,2/24/68,1968,11/21/96,Other,,Commercial/Industrial,,#2 fuel oil,Petroleum,14000,Gallons,0
+500209,A FORMER DRY CLEANER,RT 59,,NYACK,Rockland,,4422,3,10/3/69,1969,4/5/05,Unknown,,Commercial/Industrial,10/7/10,gasoline,Petroleum,0,Gallons,0
+8908900,GUNN'S SERVICE,RT 417,,JASPER,Steuben,,5156,8,12/1/69,1969,12/1/89,Tank Failure,,Gasoline Station or other PBS Facility,9/21/95,#2 fuel oil,Petroleum,0,Gallons,0
