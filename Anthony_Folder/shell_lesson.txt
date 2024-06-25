@@ -1,5 +1,0 @@
-# This is a test for testing the test of tests
-- cd # opens directory
-- ls # shows files within current directory
-- pwd # shows current directory
-- cat # i think this opens a file?
