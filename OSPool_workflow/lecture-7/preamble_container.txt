@@ -1,0 +1,4 @@
+mkdir $HOME/tmp
+export TMPDIR=$HOME/tmp
+export APPTAINER_TMPDIR=$HOME/tmp
+export APPTAINER_CACHEDIR=$HOME/tmp
