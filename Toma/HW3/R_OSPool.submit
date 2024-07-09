@@ -6,9 +6,9 @@ executable = spill_calculation.r
 arguments = 
 
 # Tell HTCondor what to name log, standard error, and standard output("screen output") files
-log = logs/spill.$(Cluster).$(Process).log
-output = logs/spill.$(Cluster).$(Process).out
-error = logs.$(Cluster)./spill.$(Cluster).$(Process).err
+log = log/spill.$(Cluster).$(Process).log
+output = errout/spill.$(Cluster).$(Process).out
+error = errout.$(Cluster)./spill.$(Cluster).$(Process).err
 
 #Specify the job duration
 +JobDurationCategory = "Medium"
