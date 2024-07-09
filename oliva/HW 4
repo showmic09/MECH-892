@@ -1,0 +1,3 @@
++ will be transformed using tr command and then replaced using mv command as shown below
++ tr -d '\r' < find_anagram.py > find_anagram_unix.py
++ mv find_anagram_unix.py find_anagram.py
