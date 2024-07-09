@@ -45,3 +45,50 @@
 
 	Job terminated of its own accord at 2024-07-09T13:31:11Z with exit-code 1.
 ...
+000 (15498958.000.000) 2024-07-09 08:55:03 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_2018792_f97c>
+...
+040 (15498958.000.000) 2024-07-09 08:56:22 Started transferring input files
+	Transferring to host: <10.5.215.43:45423?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#23190968%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-f1f1]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector9#3767723&PrivNet=CRUSH-OSG-C7-10-5-215-43&addrs=10.5.215.43-45423&alias=CRUSH-OSG-C7-10-5-215-43&noUDP>
+...
+040 (15498958.000.000) 2024-07-09 08:56:22 Finished transferring input files
+...
+021 (15498958.000.000) 2024-07-09 08:56:25 Message from starter on slot1_59@glidein_17964_40903506@CRUSH-OSG-C7-10-5-215-43:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image /cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0
+...
+001 (15498958.000.000) 2024-07-09 08:56:25 Job executing on host: <10.5.215.43:44723?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#23054959%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-f1f1]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector5#3675554&PrivNet=CRUSH-OSG-C7-10-5-215-43&addrs=10.5.215.43-44723&alias=CRUSH-OSG-C7-10-5-215-43&noUDP>
+	SlotName: slot1_59@CRUSH-OSG-C7-10-5-215-43
+	CondorScratchDir = "/var/lib/condor/execute/dir_17962/glide_D40sKI/execute/dir_17784"
+	Cpus = 1
+	Disk = 1049600
+	GLIDEIN_ResourceName = "SU-ITS-CE2"
+	GPUs = 0
+	Memory = 1024
+...
+006 (15498958.000.000) 2024-07-09 08:56:31 Image size of job updated: 48212
+	3  -  MemoryUsage of job (MB)
+	2800  -  ResidentSetSize of job (KB)
+...
+040 (15498958.000.000) 2024-07-09 08:56:31 Started transferring output files
+...
+040 (15498958.000.000) 2024-07-09 08:56:31 Finished transferring output files
+...
+005 (15498958.000.000) 2024-07-09 08:56:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	120  -  Run Bytes Sent By Job
+	1580  -  Run Bytes Received By Job
+	120  -  Total Bytes Sent By Job
+	1580  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      127  1048576   1049600 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        3     1024      1024 
+	   TimeExecute (s)      :        6                    
+	   TimeSlotBusy (s)     :       14                    
+
+	Job terminated of its own accord at 2024-07-09T13:56:31Z with exit-code 0.
+...

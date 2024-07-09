@@ -3,7 +3,7 @@
 
 # Specify your executable and arguments
 executable = spill_calculation.r
-arguments = $(csvfile).csv
+arguments = $(csvfile)
 
 # Tell HTCondor what to name log, standard error, and standard output("screen output") files
 log = log/spill$(Process).log
