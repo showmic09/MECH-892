@@ -3,12 +3,12 @@
 
 # Specify your executable and arguments
 executable = spill_calculation.r
-arguments = 
+arguments = $(csvfile)
 
 # Tell HTCondor what to name log, standard error, and standard output("screen output") files
 log = log/spill.$(Cluster).$(Process).log
 output = errout/spill.$(Cluster).$(Process).out
-error = errout.$(Cluster)./spill.$(Cluster).$(Process).err
+error = errout/spill.$(Cluster).$(Process).error
 
 #Specify the job duration
 +JobDurationCategory = "Medium"
@@ -24,4 +24,4 @@ request_memory = 1GB
 request_disk = 1GB
 
 # Tell HTCondor to queue a job for each data file
-queue 
+queue csvfile from csvfile.list 
