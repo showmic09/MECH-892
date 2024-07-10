@@ -1,0 +1,47 @@
+000 (15499929.001.000) 2024-07-10 13:54:10 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_4186543_dad1>
+...
+040 (15499929.001.000) 2024-07-10 13:58:17 Started transferring input files
+	Transferring to host: <192.168.3.157:43863?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d22e]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector5#45576590%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8a3]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector5#3811709&PrivNet=lnxfarm257.colorado.edu&addrs=192.168.3.157-43863&alias=lnxfarm257.colorado.edu&noUDP>
+...
+040 (15499929.001.000) 2024-07-10 13:58:17 Finished transferring input files
+...
+021 (15499929.001.000) 2024-07-10 13:58:18 Message from starter on slot1_6@glidein_1807132_141122200@lnxfarm257.colorado.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image /cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0
+...
+001 (15499929.001.000) 2024-07-10 13:58:18 Job executing on host: <192.168.3.157:38979?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d22e]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#23139916%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8a3]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector3#3797331&PrivNet=lnxfarm257.colorado.edu&addrs=192.168.3.157-38979&alias=lnxfarm257.colorado.edu&noUDP>
+	SlotName: slot1_6@lnxfarm257.colorado.edu
+	CondorScratchDir = "/sge-batch/glide_6ldsRv/execute/dir_2585763"
+	Cpus = 1
+	Disk = 1049600
+	GLIDEIN_ResourceName = "UColorado_HEP"
+	GPUs = 0
+	Memory = 1024
+...
+006 (15499929.001.000) 2024-07-10 13:58:23 Image size of job updated: 1
+	4  -  MemoryUsage of job (MB)
+	3568  -  ResidentSetSize of job (KB)
+...
+040 (15499929.001.000) 2024-07-10 13:58:23 Started transferring output files
+...
+040 (15499929.001.000) 2024-07-10 13:58:24 Finished transferring output files
+...
+005 (15499929.001.000) 2024-07-10 13:58:24 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	120  -  Run Bytes Sent By Job
+	2475  -  Run Bytes Received By Job
+	120  -  Total Bytes Sent By Job
+	2475  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :      118  1048576   1049600 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        4     1024      1024 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        9                    
+
+	Job terminated of its own accord at 2024-07-10T18:58:23Z with exit-code 0.
+...
