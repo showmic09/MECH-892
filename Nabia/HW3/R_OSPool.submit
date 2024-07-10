@@ -7,15 +7,15 @@ arguments = $(spill)
 
 # Tell HTCondor what to name log, standard error, and standard output("screen output") files
 log = log/spill$(Process).log
-output = output/spill$(Process).out
-error = error/spill$(Process).error
+output = errout/spill$(Process).out
+error = errout/spill$(Process).error
 
 #Specify the job duration
 +JobDurationCategory = "Medium"
 
 # Specify that HTCondor should transfer files to and from the
 #  computer where each job runs. 
-transfer_input_files = data/$(spill)
+transfer_input_files = /home/nabia/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/$(spill)
 should_transfer_files = YES
 
 # Amount of resources available to your jobs
