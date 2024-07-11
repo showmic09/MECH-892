@@ -1,0 +1,25 @@
+universe = vanilla
+log = logs/$(Cluster)_$(Process).log
+error = logs/$(Cluster)_$(Process).err
+output = logs/$(Cluster)_$(Process).out
+
+executable = simple.sh
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+
+# set arguments, queue a normal job
+arguments = 600
+queue 1
+
+# queue a job that will go on hold
+transfer_input_files = test.txt
+queue 1
+
+# queue a job that will never start
+request_memory = 40TB
+queue 1
