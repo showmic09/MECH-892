@@ -1,0 +1,79 @@
+000 (15500944.001.000) 2024-07-11 15:45:38 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_3385779_5aff>
+...
+040 (15500944.001.000) 2024-07-11 15:46:44 Started transferring input files
+	Transferring to host: <137.99.174.21:43267?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector9#23271048%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector1#3924058&PrivNet=cn427.storrs.hpc.uconn.edu&addrs=137.99.174.21-43267&alias=cn427.storrs.hpc.uconn.edu&noUDP>
+...
+040 (15500944.001.000) 2024-07-11 15:46:44 Finished transferring input files
+...
+021 (15500944.001.000) 2024-07-11 15:46:44 Error from starter on slot1_8@glidein_3815446_13562400@cn427.storrs.hpc.uconn.edu:
+	Failed to transfer files: SHADOW at 192.170.231.142 failed to send file(s) to <137.99.174.21:37597>: |Error: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_2000_2009.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <192.170.231.142:9618>
+	Code 13 Subcode 2
+...
+004 (15500944.001.000) 2024-07-11 15:46:44 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	484  -  Run Bytes Received By Job
+	Transfer input files failure at access point ap21 while sending files to the execution point. Details: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_2000_2009.csv: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       33  1048576   1049600 
+	   GPUs                 :                           0 
+	   Memory (MB)          :              1024      1024 
+...
+012 (15500944.001.000) 2024-07-11 15:46:44 Job was held.
+	Transfer input files failure at access point ap21 while sending files to the execution point. Details: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_2000_2009.csv: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+000 (15500950.001.000) 2024-07-11 15:54:58 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_3385779_5aff>
+...
+040 (15500950.001.000) 2024-07-11 15:55:24 Started transferring input files
+	Transferring to host: <72.36.96.157:33077?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector6#23301147%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector10#3888947&PrivNet=mwt2-c028.campuscluster.illinois.edu&addrs=72.36.96.157-33077+[2620-0-e01-4800--67]-33077&alias=mwt2-c028.campuscluster.illinois.edu&noUDP>
+...
+040 (15500950.001.000) 2024-07-11 15:55:26 Finished transferring input files
+...
+021 (15500950.001.000) 2024-07-11 15:55:28 Message from starter on slot1_5@glidein_49474_713116500@mwt2-c028.campuscluster.illinois.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image /cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0
+...
+001 (15500950.001.000) 2024-07-11 15:55:28 Job executing on host: <72.36.96.157:35722?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector10#23308105%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector2#3955720&PrivNet=mwt2-c028.campuscluster.illinois.edu&addrs=72.36.96.157-35722+[2620-0-e01-4800--67]-35722&alias=mwt2-c028.campuscluster.illinois.edu&noUDP>
+	SlotName: slot1_5@mwt2-c028.campuscluster.illinois.edu
+	CondorScratchDir = "/scratch.local/condor/execute/dir_49470/glide_fBL9Ym/execute/dir_36813"
+	Cpus = 1
+	Disk = 1049978
+	GLIDEIN_ResourceName = "MWT2"
+	GPUs = 0
+	Memory = 1024
+...
+006 (15500950.001.000) 2024-07-11 15:56:23 Image size of job updated: 1
+	3  -  MemoryUsage of job (MB)
+	2712  -  ResidentSetSize of job (KB)
+...
+006 (15500950.001.000) 2024-07-11 15:56:30 Image size of job updated: 2115064
+	84  -  MemoryUsage of job (MB)
+	85192  -  ResidentSetSize of job (KB)
+...
+040 (15500950.001.000) 2024-07-11 15:56:30 Started transferring output files
+...
+040 (15500950.001.000) 2024-07-11 15:56:30 Finished transferring output files
+...
+005 (15500950.001.000) 2024-07-11 15:56:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	120  -  Run Bytes Sent By Job
+	16315271  -  Run Bytes Received By Job
+	120  -  Total Bytes Sent By Job
+	16315271  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    16073  1048576   1049978 
+	   GPUs                 :                           0 
+	   Memory (MB)          :       84     1024      1024 
+	   TimeExecute (s)      :       62                    
+	   TimeSlotBusy (s)     :       66                    
+
+	Job terminated of its own accord at 2024-07-11T20:56:30Z with exit-code 0.
+...

@@ -1,0 +1,75 @@
+000 (15500944.004.000) 2024-07-11 15:45:38 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_3385779_5aff>
+...
+040 (15500944.004.000) 2024-07-11 15:46:44 Started transferring input files
+	Transferring to host: <207.73.217.22:35701?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#23347442%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector1#3924057&PrivNet=msu-lc01.osris.org&addrs=207.73.217.22-35701&alias=msu-lc01.osris.org&noUDP>
+...
+040 (15500944.004.000) 2024-07-11 15:46:44 Finished transferring input files
+...
+021 (15500944.004.000) 2024-07-11 15:46:44 Error from starter on slot1@glidein_3898577_422836890@msu-lc01.osris.org:
+	Failed to transfer files: SHADOW at 192.170.231.142 failed to send file(s) to <207.73.217.22:38129>: |Error: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_1970_1979.csv: (errno 2) No such file or directory; STARTER failed to receive file(s) from <192.170.231.142:9618>
+	Code 13 Subcode 2
+...
+004 (15500944.004.000) 2024-07-11 15:46:44 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	484  -  Run Bytes Received By Job
+	Transfer input files failure at access point ap21 while sending files to the execution point. Details: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_1970_1979.csv: (errno 2) No such file or directory
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       52  1048576  26068836 
+	   GPUs                 :                           0 
+	   Memory (MB)          :              1024      2048 
+...
+012 (15500944.004.000) 2024-07-11 15:46:44 Job was held.
+	Transfer input files failure at access point ap21 while sending files to the execution point. Details: reading from file /home/Niaz/MECH-892/MECH-892/OSPool_workflow/lecture-5/data_analysis/data/spills_1970_1979.csv: (errno 2) No such file or directory
+	Code 13 Subcode 2
+...
+000 (15500950.004.000) 2024-07-11 15:54:58 Job submitted from host: <192.170.231.142:9618?addrs=192.170.231.142-9618+[2605-9a00-10-200b-192-170-231-142]-9618&alias=ap21.uc.osg-htc.org&noUDP&sock=schedd_3385779_5aff>
+...
+040 (15500950.004.000) 2024-07-11 15:55:25 Started transferring input files
+	Transferring to host: <10.136.81.219:37005?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector7#23348124%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector7#3963496&PrivNet=comp-cc-0449.gwave.ics.psu.edu&addrs=10.136.81.219-37005&alias=comp-cc-0449.gwave.ics.psu.edu&noUDP>
+...
+040 (15500950.004.000) 2024-07-11 15:55:25 Finished transferring input files
+...
+021 (15500950.004.000) 2024-07-11 15:55:26 Message from starter on slot1_3@glidein_38341_786404658@comp-cc-0449.gwave.ics.psu.edu:
+	PREPARE_JOB (prepare-hook) succeeded (reported status 000): Using Singularity image /cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0
+...
+001 (15500950.004.000) 2024-07-11 15:55:26 Job executing on host: <10.136.81.219:39261?CCBID=128.105.82.148:9618%3faddrs%3d128.105.82.148-9618+[2607-f388-2200-9d-59ea-66d1-ffa8-d221]-9618%26alias%3dospool-ccb.osg.chtc.io%26noUDP%26sock%3dcollector2#44832484%20192.170.231.11:9618%3faddrs%3d192.170.231.11-9618+[fd85-ee78-d8a6-8607--1-8b0]-9618%26alias%3dospool-ccb.osgprod.tempest.chtc.io%26noUDP%26sock%3dcollector2#3961140&PrivNet=comp-cc-0449.gwave.ics.psu.edu&addrs=10.136.81.219-39261&alias=comp-cc-0449.gwave.ics.psu.edu&noUDP>
+	SlotName: slot1_3@comp-cc-0449.gwave.ics.psu.edu
+	CondorScratchDir = "/localscratch/condor/execute/dir_38158/glide_Q0zVGU/execute/dir_639067"
+	Cpus = 1
+	Disk = 1049861
+	GLIDEIN_ResourceName = "PSU-LIGO"
+	GPUs = 0
+	Memory = 1024
+...
+006 (15500950.004.000) 2024-07-11 15:55:35 Image size of job updated: 1
+	4  -  MemoryUsage of job (MB)
+	3492  -  ResidentSetSize of job (KB)
+...
+040 (15500950.004.000) 2024-07-11 15:55:35 Started transferring output files
+...
+040 (15500950.004.000) 2024-07-11 15:55:35 Finished transferring output files
+...
+005 (15500950.004.000) 2024-07-11 15:55:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	120  -  Run Bytes Sent By Job
+	167214  -  Run Bytes Received By Job
+	120  -  Total Bytes Sent By Job
+	167214  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :      301  1048576   1049861 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        4     1024      1024 
+	   TimeExecute (s)      :        9                    
+	   TimeSlotBusy (s)     :       11                    
+
+	Job terminated of its own accord at 2024-07-11T20:55:35Z with exit-code 0.
+...
