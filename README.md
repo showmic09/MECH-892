@@ -16,4 +16,3 @@ GitHub repository for the MECH-892 course at UNL. This repository will be used t
   - git checkout <span style="color:red">main/master</span>
   - git status
   - git pull
-test niaz
