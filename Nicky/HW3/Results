@@ -1,0 +1,11 @@
+Here are the results of the HTCondor job
+spill0.log   spill11.log  spill13.log  spill2.log  spill4.log  spill6.log  spill8.log
+spill10.log  spill12.log  spill1.log   spill3.log  spill5.log  spill7.log  spill9.log
+
+spill0.out   spill11.out  spill13.out  spill2.out  spill4.out  spill6.out  spill8.out
+spill10.out  spill12.out  spill1.out   spill3.out  spill5.out  spill7.out  spill9.out
+
+
+spill0.error   spill11.error  spill13.error  spill2.error  spill4.error  spill6.error  spill8.error
+spill10.error  spill12.error  spill1.error   spill3.error  spill5.error  spill7.error  spill9.error
+
