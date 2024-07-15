@@ -1,8 +1,8 @@
 executable = find_anagrams.py
 arguments = p098_words.txt
 
-request_memory = 1GB
+request_memory = 1TB
 
-transfer_input_files = p098_words.txt
+transfer_input_files = p098_words,txt
 
 queue
