@@ -6,8 +6,8 @@ arguments = $(spill)
 
 # Tell HTCondor what to name log, standard error, and standard output("screen output") files
 log = log/spill$(Process).log
-output = output/spill$(Process).out
-error = error/spill$(Process).error
+output = errout/spill$(Process).out
+error = errout/spill$(Process).error
 
 #Specify the job duration
 +JobDurationCategory = "Medium"
