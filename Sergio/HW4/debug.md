@@ -1,9 +1,6 @@
-lines 2 and 6 would need to be altered to include the folder path.
+line 6 would need to be altered to include the folder path.
 
-the lines should look like this afterwards.
-
-
-arguments = input/p098_words.txt
+the line should look like this afterwards.
 
 
 transfer_input_files = input/p098_words.txt
