@@ -7,7 +7,6 @@ click on control O enter and then control X to exit
 The results would appear like this: 
 executable = find_anagrams.py
 arguments = p098_words.txt
-
 request_memory = 1GB
 request_cpus = 1
 request_desk = 1TB
