@@ -9,5 +9,5 @@ executable = find_anagrams.py
 arguments = p098_words.txt
 request_memory = 1GB
 request_cpus = 1
-request_desk = 1TB
+request_desk = 1GB
 transfer_input_files = p098_words,txt
