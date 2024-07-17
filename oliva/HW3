@@ -1,0 +1,30 @@
++ HMW #3 RESULTS
++ [olivak@ap21 data_analysis]$ cat R_OSPool.submit
++ # File Name: R_OSPool.submit
++ +SingularityImage = "/cvmfs/singularity.opensciencegrid.org/opensciencegrid/osgvo-r:3.5.0"
+
++ # Specify your executable and arguments
++  executable = /usr/bin/Rscript
++ arguments =   spill_calculation.r $(R_OSPool.submit)
+
++ # Tell HTCondor what to name log, standard error, and standard output("screen output") files
++ log = log/spill$(R_OSPool.submit).log
++ output = errout/spill$(R_OSPool.submit).out
++ error = errout/spill$(R_OSPool.submit).error
+
++ #Specify the job duration
++ +JobDurationCategory = "Medium"
+
++ # Specify that HTCondor should transfer files to and from the
++ #  computer where each job runs.
++ transfer_input_files = spill_calculation.r, data_analysis/$(R_OSPool.submit)
++ should_transfer_files = YES
+
++ # Amount of resources available to your jobs
++ request_cpus = 1
++ request_memory = 1GB
++ request_disk = 1GB
+
++ # Tell HTCondor to queue a job for each data file
++ queue filename matching files data_analysis/*.csv
++ [olivak@ap21 data_analysis]$
