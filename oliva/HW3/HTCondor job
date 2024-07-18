@@ -1,0 +1,5 @@
++ [olivak@ap21 data_analysis]$ ls
++ data          R_OSPool.submit         R_OSPool.sub.save
++ README.md     R_OSPool.submit.save    R_OSPool.sub.save.1
++ R_OSPool.sub  R_OSPool.submit.save.1  spill_calculation.r
++ [olivak@ap21 data_analysis]$
